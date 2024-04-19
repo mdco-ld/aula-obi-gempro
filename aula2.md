@@ -70,7 +70,7 @@ int main() {
 ```
 
 Primeiramente, vamos analisar a função `is_prime`. A primeira coisa que ela faz é verificar se `p` é menor que `2`. Isso consiste de uma única operação, logo é `O(1)`. Logo depois, ela verifica se `p` é igual a `2`, que também consiste de uma única operação. Logo, também é `O(1)`.
-Depois disso, temos um loop, que não sabemos quantas vezes será executado: Se p for primo, o loop será executado até acabar, mas se p não for primo, ele retornará antes de acabar. Em situações assim, podemos assumir o pior caso. Logo, essa parte do algoritmo é `O(n)`.
+Depois disso, temos um loop, que não sabemos quantas vezes será executado: Se `p` for primo, o loop será executado até acabar, mas se `p` não for primo, ele retornará antes de acabar. Em situações assim, podemos assumir o pior caso. Logo, essa parte do algoritmo é `O(n)`.
 Com isso, vemos que a complexidade do algoritmo é `O(n + 2)`, mas ao calcular a complexidade, apenas consideramos a maior função quando `n` cresce, neste caso, `n`.
 Outros exemplos: 
 - `O(n^2 + n + 1)` -> `O(n^2)`
