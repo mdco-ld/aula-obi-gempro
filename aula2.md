@@ -1,4 +1,4 @@
-# Complexidade e arrays (vectors)
+# Complexidade
 
 ## Introdução
 
